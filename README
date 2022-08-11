@@ -1,0 +1,14 @@
+Финальное тестовое задание
+pages/base.py содержит реализацию шаблона PageObject для Python
+pages/elements.py содержит вспомогательный класс для определения веб-элементов на веб-страницах
+
+Скачать версию Selenium WebDriver, совместимую с вашим браузером
+(тесты проводились в браузере Google Chrome)
+
+В файле conftest.py в фикстуре driver изменить значение driver на ваш Selenium WebDriver и указать путь к файлу драйвера
+
+Запускайте тесты командами:
+pytest -v --driver Chrome --driver-path \"путь к веб драйверу" \chromedriver.exe tests\yam_main_page_tests.py
+pytest -v --driver Chrome --driver-path \"путь к веб драйверу" \chromedriver.exe tests\yam_search_tests.py
+
+
